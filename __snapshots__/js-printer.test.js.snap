@@ -1,0 +1,74 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`/Users/william/projects/demo-pretty-printer/js-printer.test.js formats a variable assignement 1`] = `"const value = 123456789;"`;
+
+exports[`/Users/william/projects/demo-pretty-printer/js-printer.test.js formats a variable assignement 2`] = `
+"const value =
+  123456789;"
+`;
+
+exports[`/Users/william/projects/demo-pretty-printer/js-printer.test.js formats a variable assignement with a long array 1`] = `"const value = [1, 2, 3, 4, 5, 6, 7, 8, 9];"`;
+
+exports[`/Users/william/projects/demo-pretty-printer/js-printer.test.js formats a variable assignement with a long array 2`] = `
+"const value = [
+  1,
+  2,
+  3,
+  4,
+  5,
+  6,
+  7,
+  8,
+  9
+];"
+`;
+
+exports[`/Users/william/projects/demo-pretty-printer/js-printer.test.js formats a variable declaration with let 1`] = `"let someLongVar;"`;
+
+exports[`/Users/william/projects/demo-pretty-printer/js-printer.test.js formats a variable declaration with let 2`] = `"let someLongVar;"`;
+
+exports[`/Users/william/projects/demo-pretty-printer/js-printer.test.js formats a variable declaration with var 1`] = `"var someLongVar;"`;
+
+exports[`/Users/william/projects/demo-pretty-printer/js-printer.test.js formats a variable declaration with var 2`] = `"var someLongVar;"`;
+
+exports[`/Users/william/projects/demo-pretty-printer/js-printer.test.js formats arrow functions 1`] = `"const foo = () => {};"`;
+
+exports[`/Users/william/projects/demo-pretty-printer/js-printer.test.js formats arrow functions 2`] = `"const foo = () => {};"`;
+
+exports[`/Users/william/projects/demo-pretty-printer/js-printer.test.js formats arrow functions with arguments 1`] = `"const foo = (a, bb, ccc) => {};"`;
+
+exports[`/Users/william/projects/demo-pretty-printer/js-printer.test.js formats arrow functions with arguments 2`] = `
+"const foo = (
+  a,
+  bb,
+  ccc
+) => {};"
+`;
+
+exports[`/Users/william/projects/demo-pretty-printer/js-printer.test.js formats function declarations 1`] = `
+"function func() {
+  return;
+}"
+`;
+
+exports[`/Users/william/projects/demo-pretty-printer/js-printer.test.js formats function declarations 2`] = `
+"function func() {
+  return;
+}"
+`;
+
+exports[`/Users/william/projects/demo-pretty-printer/js-printer.test.js formats function declarations with arguments 1`] = `
+"function func(a, b, ccc) {
+  return;
+}"
+`;
+
+exports[`/Users/william/projects/demo-pretty-printer/js-printer.test.js formats function declarations with arguments 2`] = `
+"function func(
+  a,
+  b,
+  ccc
+) {
+  return;
+}"
+`;

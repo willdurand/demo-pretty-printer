@@ -1,0 +1,35 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`/Users/william/projects/demo-pretty-printer/document.test.js fill renders as many documents as possible on a single line 1`] = `
+"Here is a paragraph of
+text that we will format
+to a desired width."
+`;
+
+exports[`/Users/william/projects/demo-pretty-printer/document.test.js fill renders as many documents as possible on a single line 2`] = `
+"Here is a paragraph
+of text that
+we will format
+to a desired
+width."
+`;
+
+exports[`/Users/william/projects/demo-pretty-printer/document.test.js misc. is compatible with the Prettier example 1`] = `
+"[
+  1,
+  2,
+  3,
+  4,
+  5,
+  6,
+  7,
+  8
+]"
+`;
+
+exports[`/Users/william/projects/demo-pretty-printer/document.test.js misc. is compatible with the Prettier example 2`] = `"[ 1, 2, 3, 4, 5, 6, 7, 8 ]"`;
+
+exports[`/Users/william/projects/demo-pretty-printer/document.test.js nest increases the nesting after next new line 1`] = `
+"foo
+  bar"
+`;

@@ -1,0 +1,35 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`/Users/william/projects/demo-pretty-printer/xml-printer.test.js formats attributes 1`] = `"<node id=\\"123\\" attr1=\\"value1\\"></node>"`;
+
+exports[`/Users/william/projects/demo-pretty-printer/xml-printer.test.js formats attributes 2`] = `
+"<node
+  id=\\"123\\"
+  attr1=\\"value1\\"
+>
+  
+</node>"
+`;
+
+exports[`/Users/william/projects/demo-pretty-printer/xml-printer.test.js formats long content 1`] = `
+"<node>
+  Lorem ipsum dolor sit amet, consectetur adipiscing
+  elit, sed do eiusmod tempor incididunt ut labore
+  et dolore magna aliqua.
+</node>"
+`;
+
+exports[`/Users/william/projects/demo-pretty-printer/xml-printer.test.js formats long content 2`] = `
+"<node>
+  Lorem ipsum
+  dolor sit
+  amet, consectetur
+  adipiscing
+  elit, sed
+  do eiusmod
+  tempor incididunt
+  ut labore
+  et dolore
+  magna aliqua.
+</node>"
+`;

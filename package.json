@@ -1,0 +1,19 @@
+{
+  "name": "demo-pretty-printer",
+  "version": "1.0.0",
+  "private": true,
+  "author": "William Durand <will+git@drnd.me>",
+  "license": "MIT",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "dependencies": {
+    "@xml-tools/ast": "^5.0.5",
+    "espree": "^7.3.1",
+    "estraverse": "^5.2.0"
+  },
+  "devDependencies": {
+    "jest": "^27.0.5"
+  }
+}
