@@ -1,6 +1,10 @@
 # demo-pretty-printer
 
-This is a demo for a blog post about pretty printers I wrote on [my blog](https://williamdurand.fr).
+This is a demo for [a blog post about pretty printers][blog-post] I wrote on [my blog][my-blog].
+
+:warning: the Wadler's algorithm is fully implemented but the language-specific layers are
+only partially implemented, i.e. not all JS or XML syntaxes are supported. This is a _demo_
+project, not something you should be using in production.
 
 ## Quick start
 
@@ -296,3 +300,6 @@ $ node xml 120
 ## License
 
 This project is released under the MIT License. See the bundled LICENSE file for details.
+
+[my-blog]: https://williamdurand.fr/
+[blog-post]: https://williamdurand.fr/2021/07/23/on-pretty-printers/
